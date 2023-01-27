@@ -18,7 +18,7 @@ function BookShow({ book, onDelete, onEdit }) {
 
   return (
     <div className="book-show">
-      <img src={`https://picsum.photos/seed/${book.id}/100`} alt="random" />
+      <img src={`https://picsum.photos/seed/${book.id}/300`} alt="random" />
       <div>{content}</div>
       <div className="actions">
         <button className="edit" onClick={() => setShowEdit(!showEdit)}>
